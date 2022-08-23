@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's play minesweeping together~</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/a.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="bookmark" href="images/favicon.ico" />
+  </head>
+
+  <body>
+    <div class="main">
+      <p>
+        <a onclick="start() ">用时：</a
+        ><input type="text" id="timetext" value="00时00分00秒" readonly /><br />
+      </p>
+      <header class="header">
+        <button>初级</button>
+        <button>中级</button>
+        <button>高级</button>
+        <button>自定义</button>
+        <button class="header" onclick="rule()">查看规则</button>
+      </header>
+      <div class="gameBox" id="gameBox"></div>
+      <footer class="footer">
+        <a onclick="stop()">剩余旗子数量：</a><span id="surplusMine"></span>
+      </footer>
+      <script>
+        function rule() {
+          window.location.replace("else/rule.html");
+        }
+      </script>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>

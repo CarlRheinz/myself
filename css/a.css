@@ -1,0 +1,16 @@
+a:link {
+  text-decoration: none; /* 指正常的未被访问过的链接*/
+  color: black;
+}
+a:visited {
+  text-decoration: none; /*指已经访问过的链接*/
+  color: black;
+}
+a:hover {
+  text-decoration: none; /*指鼠标在链接*/
+  color: rgba(0, 69, 159, 0.698);
+}
+a:active {
+  text-decoration: none; /* 指正在点的链接*/
+  color: black;
+}

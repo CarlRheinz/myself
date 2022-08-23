@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>minesweeping-rule</title>
+    <link rel="stylesheet" href="../css/a.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="bookmark" href="../images/favicon.ico" />
+  </head>
+  <body>
+    <div style="background-color: #fefee8; text-align: center; padding: 40px">
+      <img src="../images/logo.png" wight="120px" height="120px" />
+    </div>
+
+    <div
+      style="
+        background-color: #fefee8;
+        text-align: center;
+        padding: 5px;
+        font-size: 16px;
+      "
+    >
+      <p>made by Best Bear Company</p>
+    </div>
+    <div
+      style="
+        background-color: #ffffdb;
+        text-align: center;
+        padding: 5px;
+        font-size: 16px;
+      "
+    >
+      <p style="font-size: 22px"><strong>扫雷基本规则</strong></p>
+      <p><strong>1</strong></p>
+      <img src="../images/1.png" width="100px" />
+      <p>如图，中心的2代表以它自己为中心3×3范围内有2颗雷。其他数字同理。</p>
+      <p><strong>2</strong></p>
+      <img src="../images/2.png" width="100px" />
+      <p>
+        如图，按下鼠标右键，会在对应的砖块上标注红旗，表示你认为此处有雷，<br />
+        再次点击右键取消标注。<br />
+        雷区下会显示你剩余的旗子数量（旗子总数于雷的总数相等），<br />
+        如果用尽旗子但未扫出全部的雷，则游戏失败。<br />
+      </p>
+      <p><strong>3</strong></p>
+      <img src="../images/3.png" width="300px" />
+      <p>
+        你的目标：<br />
+        根据所给的数字提示，用旗子标出所有的雷，或翻开所有安全的地砖。<br />
+        不要翻开带有雷的地砖，那将会前功尽弃，使你输掉游戏。<br />
+        <br />
+        好了，记住规则，点击下方的<a onclick="Aaaaa()">________</a
+        >回到游戏吧！<br /><br />
+      </p>
+      <p onclick="back()" style="font-size: 20px">
+        <strong>Have a good time~</strong>
+      </p>
+      <br /><br />
+      <script>
+        function back() {
+          window.location.replace("../index.html");
+        }
+        function Aaaaa() {
+          window.location.replace("./2.html");
+        }
+      </script>
+    </div>
+    <div
+      style="
+        background-color: #e8e8cc;
+        text-align: center;
+        padding: 40px;
+        font-size: 8px;
+      "
+    >
+      <a href="https://space.bilibili.com/1558803147">Designer:BenRheinz</a
+      ><br /><br />
+      <a href="https://space.bilibili.com/456449406"
+        >Chief experience Officer:CarlRheinz</a
+      ><br /><br />
+      <a
+        href="https://www.bilibili.com/video/BV1GJ411x7h7?spm_id_from=333.337.search-card.all.click&vd_source=d12a9e400ac06c20aaf0062a8de23715"
+        >Click to learn more and return (doge</a
+      ><br /><br />
+      <p>:-)</p>
+    </div>
+  </body>
+</html>
